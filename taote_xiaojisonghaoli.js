@@ -99,7 +99,7 @@ function lingsiliao() {
     btn_position_click(b);
     sleep(2000);
   } else {
-    click(215, 1320);//点击领饲料坐标
+    click(215, 1200);//点击领饲料坐标
     sleep(2000);
   }
 };
