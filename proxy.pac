@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-      if (dnsDomainIs(host, "192.168.0.1") || dnsDomainIs(host, "192.168.50.120")) {
+      if (dnsDomainIs(host, "192.168.0.1") || dnsDomainIs(host, "192.168.50.210")) {
         return "DIRECT";
     };
       if (shExpMatch(host, "*.youth.cn")){
